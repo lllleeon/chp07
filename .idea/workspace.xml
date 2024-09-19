@@ -4,19 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d427def7-87f0-4934-b6ae-f499b67dd8f8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java0905.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch07/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch07/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex11/Cylinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex11/MainSylinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab1/square.java" afterDir="false" />
+    <list default="true" id="d427def7-87f0-4934-b6ae-f499b67dd8f8" name="Changes" comment="jav7장 실습 및 연습문제 10, 11">
+      <change afterPath="$PROJECT_DIR$/src/ch07/ex8_8/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch07/ex8_8/MainAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex8_5/MainStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex8_5/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex8_6/MainMyMath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex8_6/MyMath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab1/square.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +29,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;lllleeon&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/lllleeon/chp07.git&quot;,
+    &quot;accountId&quot;: &quot;1fb52e66-ffd0-4264-a899-b1092e85cc7f&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2ld3egCmltBm3iFOc4b6W9J7ljG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -44,22 +52,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/java/java0905/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/java/java0905/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -76,11 +84,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725496227151</updated>
-      <workItem from="1725496228223" duration="5589000" />
+      <workItem from="1725496228223" duration="7058000" />
+      <workItem from="1726705766583" duration="4305000" />
     </task>
+    <task id="LOCAL-00001" summary="jav7장 실습 및 연습문제 10, 11">
+      <option name="closed" value="true" />
+      <created>1725504737181</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725504737182</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="jav7장 실습 및 연습문제 10, 11" />
+    <option name="LAST_COMMIT_MESSAGE" value="jav7장 실습 및 연습문제 10, 11" />
   </component>
 </project>
