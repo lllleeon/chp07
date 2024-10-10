@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d427def7-87f0-4934-b6ae-f499b67dd8f8" name="Changes" comment="jav8장 실습">
-      <change afterPath="$PROJECT_DIR$/src/chp08/ex8_5/ex8_9/Coffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp08/ex8_5/ex8_9/CoffeeMain.java" afterDir="false" />
+    <list default="true" id="d427def7-87f0-4934-b6ae-f499b67dd8f8" name="Changes" comment="jav8-9장 실습">
+      <change afterPath="$PROJECT_DIR$/src/ex09_4/ArrayListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chp08/ex8_5/MainStudent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chp08/ex8_5/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex09_3/MainRandom.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +82,9 @@
       <workItem from="1725496228223" duration="7058000" />
       <workItem from="1726705766583" duration="8023000" />
       <workItem from="1727309661885" duration="4000" />
-      <workItem from="1727309676564" duration="3561000" />
+      <workItem from="1727309676564" duration="7223000" />
+      <workItem from="1728519883998" duration="4000" />
+      <workItem from="1728519905996" duration="1199000" />
     </task>
     <task id="LOCAL-00001" summary="jav7장 실습 및 연습문제 10, 11">
       <option name="closed" value="true" />
@@ -110,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726714056714</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="jav8-9장 실습">
+      <option name="closed" value="true" />
+      <created>1727318551555</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727318551555</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +127,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="jav7장 실습 및 연습문제 10, 11" />
     <MESSAGE value="jav8장 실습" />
-    <option name="LAST_COMMIT_MESSAGE" value="jav8장 실습" />
+    <MESSAGE value="jav8-9장 실습" />
+    <option name="LAST_COMMIT_MESSAGE" value="jav8-9장 실습" />
   </component>
 </project>
