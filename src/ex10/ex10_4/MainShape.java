@@ -17,8 +17,8 @@ public class MainShape {
         shapes.add(t);
         shapes.add(c);
 
-        for (int i=0; i < shapes.length; i++){
-            System.out.printf("인덱스번포%d 번의 도형이름: %s\n", i, shapes[i]);
+        for (int i=0; i < shapes.size(); i++){
+            System.out.printf("인덱스번포%d 번의 도형이름: %s\n", i, shapes.get(i).name);
         }
 
     }
