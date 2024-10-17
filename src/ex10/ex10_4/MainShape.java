@@ -1,5 +1,7 @@
 package ex10.ex10_4;
 
+import java.util.ArrayList;
+
 public class MainShape {
     public static void main(String[] args) {
         Square s = new Square();
@@ -10,7 +12,10 @@ public class MainShape {
         c.name = "원";
 
 
-        Shape[] shapes = {s, t, c};
+        ArrayList<Shape> shapes = new ArrayList<Shape>();
+        shapes.add(s);
+        shapes.add(t);
+        shapes.add(c);
 
         for (int i=0; i < shapes.length; i++){
             System.out.printf("인덱스번포%d 번의 도형이름: %s\n", i, shapes[i]);
@@ -18,4 +23,3 @@ public class MainShape {
 
     }
 }
-//
