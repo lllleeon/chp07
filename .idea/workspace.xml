@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d427def7-87f0-4934-b6ae-f499b67dd8f8" name="Changes" comment="oracle JDBC">
-      <change afterPath="$PROJECT_DIR$/src/ex10/ex10_4/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex10/ex10_4/MainShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex10/ex10_4/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex10/ex10_4/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex10/ex10_4/Triangle.java" afterDir="false" />
+    <list default="true" id="d427def7-87f0-4934-b6ae-f499b67dd8f8" name="Changes" comment="업캐슽잉ㅂ범위제한실습">
+      <change afterPath="$PROJECT_DIR$/src/jdbc2/entity/controller/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc2/entity/entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc2/entity/view/CustomerView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chp08/ex8_5/ex8_6/MainMyMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chp08/ex8_5/ex8_6/MainMyMath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chp08/ex8_5/ex8_6/MyMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chp08/ex8_5/ex8_6/MyMath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chp08/ex8_5/ex8_8/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chp08/ex8_5/ex8_8/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chp08/ex8_5/ex8_8/MainAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chp08/ex8_5/ex8_8/MainAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chp08/ex8_5/ex8_9/CoffeeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chp08/ex8_5/ex8_9/CoffeeMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc/MainJDBCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc/MainJDBCTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +58,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Debug",
+    "Application.MainJDBCTest.executor": "Run",
     "Application.MainShape.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -91,7 +96,8 @@
       <workItem from="1728519883998" duration="4000" />
       <workItem from="1728519905996" duration="2443000" />
       <workItem from="1729044389701" duration="2130000" />
-      <workItem from="1729124629788" duration="791000" />
+      <workItem from="1729124629788" duration="2457000" />
+      <workItem from="1729642301364" duration="8196000" />
     </task>
     <task id="LOCAL-00001" summary="jav7장 실습 및 연습문제 10, 11">
       <option name="closed" value="true" />
@@ -141,7 +147,47 @@
       <option name="project" value="LOCAL" />
       <updated>1729046187735</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="oracle JDBC">
+      <option name="closed" value="true" />
+      <created>1729125698205</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729125698205</updated>
+    </task>
+    <task id="LOCAL-00008" summary="업캐슽잉 실습 10-4배열">
+      <option name="closed" value="true" />
+      <created>1729125764561</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1729125764561</updated>
+    </task>
+    <task id="LOCAL-00009" summary="업캐슽잉 실습 10-4어ㅔ이리스트">
+      <option name="closed" value="true" />
+      <created>1729125945960</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1729125945960</updated>
+    </task>
+    <task id="LOCAL-00010" summary="업캐슽잉 실습 10-4어ㅔ이리스트">
+      <option name="closed" value="true" />
+      <created>1729126008575</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1729126008575</updated>
+    </task>
+    <task id="LOCAL-00011" summary="업캐슽잉ㅂ범위제한실습">
+      <option name="closed" value="true" />
+      <created>1729126489368</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1729126489368</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +199,9 @@
     <MESSAGE value="jav8-9장 실습" />
     <MESSAGE value="java 10-1장 상속 개ㅛㅇ" />
     <MESSAGE value="oracle JDBC" />
-    <option name="LAST_COMMIT_MESSAGE" value="oracle JDBC" />
+    <MESSAGE value="업캐슽잉 실습 10-4배열" />
+    <MESSAGE value="업캐슽잉 실습 10-4어ㅔ이리스트" />
+    <MESSAGE value="업캐슽잉ㅂ범위제한실습" />
+    <option name="LAST_COMMIT_MESSAGE" value="업캐슽잉ㅂ범위제한실습" />
   </component>
 </project>
