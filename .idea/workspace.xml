@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d427def7-87f0-4934-b6ae-f499b67dd8f8" name="Changes" comment="jdbc programing &amp;패키지ㅡㄹ mvc모델에 따라 나누너어써봤다">
-      <change afterPath="$PROJECT_DIR$/src/jdbc3/controller/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc3/entity/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc3/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc3/view/ProductView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc2/entity/controller/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc2/entity/entity/Customer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc2/entity/view/CustomerView.java" beforeDir="false" />
-    </list>
+    <list default="true" id="d427def7-87f0-4934-b6ae-f499b67dd8f8" name="Changes" comment="jdbc programing &amp;패키지ㅡㄹ mvc모델에 따라 나누너어써봤다 사용 2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +88,7 @@
       <workItem from="1729124629788" duration="2457000" />
       <workItem from="1729642301364" duration="8644000" />
       <workItem from="1730247236985" duration="396000" />
-      <workItem from="1730247644013" duration="7228000" />
+      <workItem from="1730247644013" duration="8019000" />
     </task>
     <task id="LOCAL-00001" summary="jav7장 실습 및 연습문제 10, 11">
       <option name="closed" value="true" />
@@ -195,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729651854634</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="jdbc programing &amp;패키지ㅡㄹ mvc모델에 따라 나누너어써봤다 사용 2">
+      <option name="closed" value="true" />
+      <created>1730256219706</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1730256219707</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +210,7 @@
     <MESSAGE value="업캐슽잉 실습 10-4어ㅔ이리스트" />
     <MESSAGE value="업캐슽잉ㅂ범위제한실습" />
     <MESSAGE value="jdbc programing &amp;패키지ㅡㄹ mvc모델에 따라 나누너어써봤다" />
-    <option name="LAST_COMMIT_MESSAGE" value="jdbc programing &amp;패키지ㅡㄹ mvc모델에 따라 나누너어써봤다" />
+    <MESSAGE value="jdbc programing &amp;패키지ㅡㄹ mvc모델에 따라 나누너어써봤다 사용 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="jdbc programing &amp;패키지ㅡㄹ mvc모델에 따라 나누너어써봤다 사용 2" />
   </component>
 </project>
