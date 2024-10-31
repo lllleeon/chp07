@@ -30,11 +30,11 @@ public class MainJDBCTest {
         }
 
 
-        try {
-            pstmt.close();
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
+       // try {
+         //   pstmt.close();
+       // } catch (IOException e) {
+        //    throw new RuntimeException(e);
+     //   }
 
     }
 }
