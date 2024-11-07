@@ -4,29 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d427def7-87f0-4934-b6ae-f499b67dd8f8" name="Changes" comment="중간고사 과제">
-      <change afterPath="$PROJECT_DIR$/src/ex10/ex10_4/ex10_5/Archer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex10/ex10_4/ex10_5/MainArcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex10/ex10_4/ex10_5/MasterArcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex10/ex10_4/ex10_6/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex10/ex10_4/ex10_6/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex10/ex10_4/ex10_6/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex10/ex10_4/ex10_6/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex10/ex10_4/ex10_6/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex10/ex10_4/ex10_7/AAA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex10/ex10_4/ex10_7/BBB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex10/ex10_4/ex10_7/MainConstructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex10/ex10_4/ex10_8/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex10/ex10_4/ex10_8/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex10/ex10_4/ex10_8/Truck.java" afterDir="false" />
+    <list default="true" id="d427def7-87f0-4934-b6ae-f499b67dd8f8" name="Changes" comment="10장 상속,메소드 오버라이딩,생성자 ㅎ출순서와 실행ㅅㄴ서,,추상설명 개념설명">
+      <change afterPath="$PROJECT_DIR$/src/ex10/ex10_4/ex10_10/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex10/ex10_4/ex10_10/MainItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex10/ex10_4/ex10_11/Item2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex10/ex10_4/ex10_11/MainWeapon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex10/ex10_4/ex10_11/Weapon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex10/ex10_4/ex10_9/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex10/ex10_4/ex10_9/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex10/ex10_4/ex10_9/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex10/ex10_4/ex10_9/MainAnimal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex10/ex10_4/Circle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex10/ex10_4/MainShape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex10/ex10_4/MainSquare.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex10/ex10_4/Shape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex10/ex10_4/Square.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex10/ex10_4/Triangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc/MainJDBCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc/MainJDBCTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex10/ex10_4/ex10_8/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex10/ex10_4/ex10_8/Car.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,25 +56,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Debug",
-    "Application.MainController.executor": "Run",
-    "Application.MainJDBCTest.executor": "Run",
-    "Application.MainShape.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/java/java0905/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MainController.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainJDBCTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainShape.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/java/java0905/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -114,7 +103,9 @@
       <workItem from="1730247236985" duration="396000" />
       <workItem from="1730247644013" duration="8398000" />
       <workItem from="1730264252582" duration="46000" />
-      <workItem from="1730334313645" duration="7257000" />
+      <workItem from="1730334313645" duration="7987000" />
+      <workItem from="1730789849139" duration="2000" />
+      <workItem from="1730938284691" duration="7491000" />
     </task>
     <task id="LOCAL-00001" summary="jav7장 실습 및 연습문제 10, 11">
       <option name="closed" value="true" />
@@ -228,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730258755353</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="10장 상속,메소드 오버라이딩,생성자 ㅎ출순서와 실행ㅅㄴ서,,추상설명 개념설명">
+      <option name="closed" value="true" />
+      <created>1730342540601</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1730342540601</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,6 +245,7 @@
     <MESSAGE value="jdbc programing &amp;패키지ㅡㄹ mvc모델에 따라 나누너어써봤다" />
     <MESSAGE value="jdbc programing &amp;패키지ㅡㄹ mvc모델에 따라 나누너어써봤다 사용 2" />
     <MESSAGE value="중간고사 과제" />
-    <option name="LAST_COMMIT_MESSAGE" value="중간고사 과제" />
+    <MESSAGE value="10장 상속,메소드 오버라이딩,생성자 ㅎ출순서와 실행ㅅㄴ서,,추상설명 개념설명" />
+    <option name="LAST_COMMIT_MESSAGE" value="10장 상속,메소드 오버라이딩,생성자 ㅎ출순서와 실행ㅅㄴ서,,추상설명 개념설명" />
   </component>
 </project>
