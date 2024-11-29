@@ -12,12 +12,13 @@ import java.util.ArrayList;
 
 public class ProductRepository {
 
-    public static ArrayList<Product> getlist() {
+    public static ArrayList<Product> getlist(String type, String searchWord) {
         ArrayList<Product> arrList = new ArrayList<Product>();
         Connection con = JDBCConnector.getConnection();
-        String sql = "select * from 제품";
+        String sql = "select * from 제품 where "+ type +" like ?";
         try {
             PreparedStatement pstmt = con.prepareStatement(sql);
+            pstmt.setString(1, searchWord);
             ResultSet rs = pstmt.executeQuery();
             while (rs.next()){
                 Product product = new Product();
