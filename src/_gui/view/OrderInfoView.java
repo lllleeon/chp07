@@ -29,10 +29,11 @@ public class OrderInfoView extends JPanel {
 
         addPan1();
         addPan2();
+        addTable();
     }
 
     public void addPan1(){
-        JLabel label = new JLabel("검색 프로그램");
+        JLabel lblTitle = new JLabel("검색 프로그램");
         pan1.add(lblTitle);
     }
     public void addPan2(){
