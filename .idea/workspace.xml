@@ -4,20 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d427def7-87f0-4934-b6ae-f499b67dd8f8" name="Changes" comment="12장 예이ㅚ 발생 이유 및 처리방ㅂㅂ">
-      <change afterPath="$PROJECT_DIR$/src/chp12/MainException12_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_6/MainMyAgeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_6/MyAgeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_7/MainThrows.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_7/MyAgeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_7/ThrowsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_9/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_9/MainBankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc3/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc3/service/ProductServiceImpl.java" afterDir="false" />
+    <list default="true" id="d427def7-87f0-4934-b6ae-f499b67dd8f8" name="Changes" comment="제품테이블에 검색기능 추가">
+      <change afterPath="$PROJECT_DIR$/src/_gui/controller/MainFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_gui/view/OrderInfoView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_10/MainBankAccountReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chp12/ex12_6/MainMyAgeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chp12/ex12_6/MainMyAgeException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/jdbc3/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc3/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc3/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc3/repository/ProductRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,28 +51,29 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MainConstant.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainController.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainJDBCTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainShape.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/java/java0905/src/ex10/ex10_4/ex10_14/pack1&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/java/java0905/src/Main.java&quot;,
-    &quot;two.files.diff.last.used.folder&quot;: &quot;D:/java/java0905/src/ex10/ex10_4/ex10_14/pack1&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Debug",
+    "Application.MainConstant.executor": "Run",
+    "Application.MainController.executor": "Run",
+    "Application.MainFrame.executor": "Run",
+    "Application.MainJDBCTest.executor": "Run",
+    "Application.MainShape.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/java/java0905/src/ex10/ex10_4/ex10_14/pack1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/java/java0905/src/Main.java",
+    "two.files.diff.last.used.folder": "D:/java/java0905/src/ex10/ex10_4/ex10_14/pack1",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -115,7 +109,8 @@
       <workItem from="1732148398584" duration="9080000" />
       <workItem from="1732757243688" duration="3802000" />
       <workItem from="1732860074709" duration="1758000" />
-      <workItem from="1732862264973" duration="811000" />
+      <workItem from="1732862264973" duration="1194000" />
+      <workItem from="1733357814499" duration="6540000" />
     </task>
     <task id="LOCAL-00001" summary="jav7장 실습 및 연습문제 10, 11">
       <option name="closed" value="true" />
@@ -261,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732157491604</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="제품테이블에 검색기능 추가">
+      <option name="closed" value="true" />
+      <created>1732863454849</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1732863454849</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,6 +286,7 @@
     <MESSAGE value="10장 상속 ,추상클래스 , this ,super,protected" />
     <MESSAGE value="11장 인터페이스(개념,ㅡ상수,춧ㅇ멤소드,디펄ㄹ스트멭스,ㅁ=ㅅ탱닥매소드)" />
     <MESSAGE value="12장 예이ㅚ 발생 이유 및 처리방ㅂㅂ" />
-    <option name="LAST_COMMIT_MESSAGE" value="12장 예이ㅚ 발생 이유 및 처리방ㅂㅂ" />
+    <MESSAGE value="제품테이블에 검색기능 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="제품테이블에 검색기능 추가" />
   </component>
 </project>
